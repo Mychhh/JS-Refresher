@@ -24,3 +24,11 @@ function getTotalRace() {
     let total = lap1 + lap2 + lap3
     document.getElementById("race").innerText = total    
 }
+
+let name = "Michael"
+let greeting = "how are you?"
+
+let theGreetings = "Hi " + name + ", " + greeting 
+
+document.getElementsByClassName("message")[0].innerHTML = theGreetings
+document.getElementsByClassName("message")[0].innerHTML += "😊"
