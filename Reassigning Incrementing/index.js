@@ -37,5 +37,8 @@ let saveEl = document.getElementById("save-el")
 
 function save(){
     let x = bonusPoints + " - "
-    saveEl.innerText += x 
+    saveEl.innerText += x
+     
+    bonusPoints = 50
+    document.querySelector(".div__initilizedVariable").innerText = "Initilized value by " + bonusPoints
 }
