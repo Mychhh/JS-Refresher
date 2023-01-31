@@ -26,3 +26,8 @@ for(let i = 0; i < children.length; i++){
         children[i].style.textAlign = "left"
     }
 }
+
+function increment(){
+    bonusPoints++
+    document.querySelector(".div__initilizedVariable").innerText = "Initilized value by " + bonusPoints
+}
