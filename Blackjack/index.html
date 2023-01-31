@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JS -->
+    <script src="index.js"defer></script>
+    <title>Black Jack</title>
+</head>
+<body>
+    <div style="width: 40%; margin: auto;">
+
+        <div>
+            <form action="#">
+                <label for="birthday-card">Am I allowed to birthday card?</label>
+                <input type="text" id="birthday-card" name="birthday-card">
+            </form>
+            <button type="button" onclick="birthdayCard()" style="margin-top: 1rem; margin-bottom: 1rem;">Check</button>
+            <h2 class="allowOrnot"></h2>
+        </div>
+
+        <div>
+            <form action="#">
+                <label for="club">This is my age</label>
+                <input type="text" id="club" name="club">
+            </form>
+            <button type="button" style="margin-top: 1rem;" onclick="enterToClub()">May I enter to the club?</button>
+            <h2 id="p"></h2>
+        </div>
+
+        <form action="#">
+            <label for="firstCard">First Card: </label>
+            <input type="text" id="firstCard" name="firstCard" value="0">
+            <label for="secondCard">Second Card: </label>
+            <input type="text" id="secondCard" name="secondCard" value="0">
+        </form>
+        <button onclick="test()" style="margin-top: 1rem;">Click me to test</button>
+        <h1 style="text-align: center;"></h1>
+        <h3></h3>
+        <h2 class="blackjack"></h2>
+        <h3 class="isAlive"></h3>
+    </div>
+</body>
+</html>
