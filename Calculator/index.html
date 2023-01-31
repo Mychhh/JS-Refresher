@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- JS -->
+    <script src="index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div>
+            <form action="#">
+                <label for="first-number">First number : </label>
+                <input type="text" id="first-number" name="first-number" value="0">
+                <label for="second-number">Second number : </label>
+                <input type="text" id="second-number" name="second-number" value="0">
+            </form>
+            
+            <div class="buttons">
+                <button type="button" onclick="add()">Add</button>
+                <button type="button" onclick="subtract()">Subtraction</button>
+                <button type="button" onclick="divide()">Multiplication</button>
+                <button type="button" onclick="multiply()">Division</button>
+            </div>
+
+            <h1 class="result" style="text-align: center;"></h1>
+
+        </div>
+    </div>
+</body>
+</html>

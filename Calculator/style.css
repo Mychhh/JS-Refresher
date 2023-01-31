@@ -1,0 +1,12 @@
+.parent{
+    display: grid;
+    place-items: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.buttons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
