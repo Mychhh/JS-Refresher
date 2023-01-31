@@ -38,3 +38,6 @@ button {
     place-items: center;
     margin: auto;
 }
+#parent__save-btn:active{
+    transform: scale(110%);
+}

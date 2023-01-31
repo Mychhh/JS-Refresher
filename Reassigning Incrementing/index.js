@@ -31,3 +31,11 @@ function increment(){
     bonusPoints++
     document.querySelector(".div__initilizedVariable").innerText = "Initilized value by " + bonusPoints
 }
+
+let saveEl = document.getElementById("save-el")
+// let count = 0
+
+function save(){
+    let x = bonusPoints + " - "
+    saveEl.innerText += x 
+}
