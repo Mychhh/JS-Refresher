@@ -1,0 +1,1 @@
+JavaScript is a Dynamically type language, which means you dont have to specify the data type of variable when you declare it
