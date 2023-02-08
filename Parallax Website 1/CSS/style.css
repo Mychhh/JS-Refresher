@@ -21,6 +21,7 @@ section::before{
     background: linear-gradient(to top, #0a2a43, transparent);
     z-index: 3;
 }
+
 section::after{
     content: '';
     position: absolute;
@@ -32,6 +33,7 @@ section::after{
     z-index: 3;
     mix-blend-mode: color;
 }
+
 section{
     position: relative;
     width: 100%;
