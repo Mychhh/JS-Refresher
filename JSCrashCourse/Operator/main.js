@@ -1,5 +1,5 @@
-let x = 10
-let y = 5
+// let x = 10
+// let y = 5
 
 // // Arithmetic Operator
 // console.log('Arithmetic Operator')
@@ -10,8 +10,8 @@ let y = 5
 // // Remainder after dividing 10 to 5
 // console.log('10 % 5 = ' + (x % y))
 
-//Comparison operator
-// Equals
+// // Comparison operator
+// // Equals
 // console.log(x == y)
 // // Not Equals
 // console.log(x != y)

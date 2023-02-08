@@ -1,16 +1,16 @@
-// For Loop
+// // For Loop
 // for(let i = 1; i <= 5; i++){
 //     console.log('Loop number ' + i)
 // }
 
-// While loop
+// // While loop
 // let i = 1
 // while(i <= 5){
 //     console.log('Loop number ' + i)
 //     i++
 // }
 
-// Do..while loop
+// // Do..while loop
 // let i = 1
 // do{
 //     console.log('Loop number ' + i)
