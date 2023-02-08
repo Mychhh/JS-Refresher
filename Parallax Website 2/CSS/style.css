@@ -107,7 +107,8 @@ section img#mountains_front{
     white-space: nowrap;
     font-size: 7.5vw;
     z-index: 6;
-    right: -350px;
+    right: -250px;
+    letter-spacing: 5px;
 }
 
 #btn{
